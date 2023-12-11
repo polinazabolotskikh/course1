@@ -37,7 +37,7 @@ public class Calculator {
     public double div(double x, double y){
         return x/y;
     }
-    public long div(long x, long y){
+    public double div(long x, long y){
         return (x/y)+(x%y);
     }
     public void enter(){
