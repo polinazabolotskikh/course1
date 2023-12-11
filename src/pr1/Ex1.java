@@ -3,11 +3,18 @@ package pr1;
 import java.util.Scanner;
 
 public class Ex1 {
-    String text="Я\nхорошо\nзнаю\nJava.";
-    double n=(46+10)*(10/3);
+    String text1="Я";
+    String text2="хорошо";
+    String text3="знаю";
+    String text4="Java.";
+    double l1=46;
+    double l2=10;
+    double l3=3;
+    double n=(l1+l2)*(l2/l3);
+
     double m=29*4*(-15);
-    int number = 10500;
-    double result1=(number/10)/10;
+    double number = 10500;
+    double result1=((number/10)+(number%10))/10;
 
     double a=3.6;
     double b=4.1;
@@ -16,10 +23,13 @@ public class Ex1 {
 
     Scanner scanner = new Scanner(System.in);
 
-    public void Enter(){
+    public void enter(){
 
         System.out.println("Первое задание:");
-        System.out.println(text);
+        System.out.println(text1);
+        System.out.println(text2);
+        System.out.println(text3);
+        System.out.println(text4);
 
         System.out.println("Второе задние:");
         System.out.println(n+", "+m);

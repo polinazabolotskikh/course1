@@ -1,64 +1,62 @@
 package pr2;
 
-import java.util.Scanner;
-
 public class Calculator {
-    public int Sum(int x, int y){
+    public int sum(int x, int y){
         return x+y;
     }
-    public double Sum(double x, double y){
+    public double sum(double x, double y){
         return x+y;
     }
-    public long Sum(long x, long y){
+    public long sum(long x, long y){
         return x+y;
     }
 
-    public int Sub(int x, int y){
+    public int sub(int x, int y){
         return x-y;
     }
-    public double Sub(double x, double y){
+    public double sub(double x, double y){
         return x-y;
     }
-    public long Sub(long x, long y){
+    public long sub(long x, long y){
         return x-y;
     }
 
-    public int Mul(int x, int y){
+    public int mul(int x, int y){
         return x*y;
     }
-    public double Mul(double x, double y){
+    public double mul(double x, double y){
         return x*y;
     }
-    public long Mul(long x, long y){
+    public long mul(long x, long y){
         return x*y;
     }
 
-    public int Div(int x, int y){
+    public int div(int x, int y){
+        return (x/y)+(x%y);
+    }
+    public double div(double x, double y){
         return x/y;
     }
-    public double Div(double x, double y){
-        return x/y;
+    public long div(long x, long y){
+        return (x/y)+(x%y);
     }
-    public long Div(long x, long y){
-        return x/y;
-    }
-    public void Enter(){
+    public void enter(){
         System.out.println("\nСложение:");
-        System.out.println(Sum(3.4,4.5));
-        System.out.println(Sum(3,4));
-        System.out.println(Sum(4000000000L,3000000000L));
+        System.out.println(sum(3.4,4.5));
+        System.out.println(sum(3,4));
+        System.out.println(sum(4000000000L,3000000000L));
         System.out.println("\nВычитание:");
-        System.out.println(Sub(3.4,4.5));
-        System.out.println(Sub(3,4));
-        System.out.println(Sub(4000000000L,3000000000L));
+        System.out.println(sub(3.4,4.5));
+        System.out.println(sub(3,4));
+        System.out.println(sub(4000000000L,3000000000L));
         System.out.println("\nУмножение:");
-        System.out.println(Mul(3.4,4.5));
-        System.out.println(Mul(3,4));
-        System.out.println(Mul(4000000000L,3000000000L));
+        System.out.println(mul(3.4,4.5));
+        System.out.println(mul(3,4));
+        System.out.println(mul(4000000000L,3000000000L));
         System.out.println("\nДеление:");
-        System.out.println(Div(3.4,4.5));
-        System.out.println(Div(3,4));
-        System.out.println(Div(4000000000L,3000000000L));
+        System.out.println(div(3.4,4.5));
+        System.out.println(div(3,4));
+        System.out.println(div(4000000000L,3000000000L));
 
     }
 }
