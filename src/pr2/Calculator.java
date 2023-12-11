@@ -38,7 +38,7 @@ public class Calculator {
         return x/y;
     }
     public double div(long x, long y){
-        return (double)(x)/(double)(y);
+        return (double)x/y;
     }
     public void enter(){
         System.out.println("\nСложение:");
