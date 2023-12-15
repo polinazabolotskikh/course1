@@ -60,8 +60,8 @@ public class Main {
         Part1 part1 = new Part1();
         part1.enterResults();
 
-        System.out.println("Вторая часть");
+       /* System.out.println("Вторая часть");
         Part2 part2=new Part2();
-        part2.enterResults();
+        part2.enterResults();*/
     }
 }
