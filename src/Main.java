@@ -1,10 +1,5 @@
-import pr1.Ex1;
-import pr2.Calculator;
-import pr2.Human;
-import pr3.Car;
-import pr3.House;
-import pr3.Study;
-import pr3.Tree;
+import pr4.Part1;
+import pr4.Part2;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -33,7 +28,7 @@ public class Main {
     System.out.println(h1.getHeight());
     System.out.println(h1.getAge());*/
 
-    System.out.println("\nТретья практика");
+    /*System.out.println("\nТретья практика");
     System.out.println("\nПервое задание");
     Study study= new Study("Изучение Java - это просто!");
     System.out.println(study.printCourse());
@@ -57,7 +52,16 @@ public class Main {
         Tree tree3=new Tree(4,true, "Pine");
         System.out.println(tree1.toString());
         System.out.println(tree2.toString());
-        System.out.println(tree3.toString());
+        System.out.println(tree3.toString());*/
 
+        System.out.println("Четвертая практика");
+        System.out.println("Первая часть");
+
+        Part1 part1 = new Part1();
+        part1.enterResults();
+
+        System.out.println("Вторая часть");
+        Part2 part2=new Part2();
+        part2.enterResults();
     }
 }
