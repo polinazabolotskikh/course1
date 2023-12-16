@@ -1,5 +1,6 @@
 import pr4.Part1;
 import pr4.Part2;
+import pr5.Ex5;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -54,14 +55,18 @@ public class Main {
         System.out.println(tree2.toString());
         System.out.println(tree3.toString());*/
 
-        System.out.println("Четвертая практика");
+        /*System.out.println("Четвертая практика");
         System.out.println("Первая часть");
 
         Part1 part1 = new Part1();
-        part1.enterResults();
+        part1.enterResults();*/
 
        /* System.out.println("Вторая часть");
         Part2 part2=new Part2();
         part2.enterResults();*/
+
+        System.out.println("Пятая практика");
+        Ex5 ex5=new Ex5();
+        ex5.enter();
     }
 }
