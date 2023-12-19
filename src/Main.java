@@ -1,14 +1,17 @@
 import pr4.Part1;
 import pr4.Part2;
 import pr5.Ex5;
+import pr6.*;
+
+import static java.awt.Color.black;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
     /*System.out.println("Первая практика");
-    Ex1 ex1 = new Ex1();
-    ex1.enter();
+    Ex1 pr6.ex1 = new Ex1();
+    pr6.ex1.enter();
 
     System.out.println("\nВторая практика");
     Calculator calculator=new Calculator();
@@ -65,8 +68,38 @@ public class Main {
         Part2 part2=new Part2();
         part2.enterResults();*/
 
-        System.out.println("Пятая практика");
+        /*System.out.println("Пятая практика");
         Ex5 ex5=new Ex5();
-        ex5.enter();
+        ex5.enter();*/
+
+        System.out.println("Шестая практика");
+
+        System.out.println();
+        System.out.println("Первое и второе задание");
+        Human client=new Client("Jhon","Jhonson","Ugra");
+        Human employee=new Employee("Isa","Medichi","Ugra");
+        client.announcing();
+        employee.announcing();
+        System.out.println(client.enter());
+        System.out.println(employee.enter());
+
+        System.out.println();
+        System.out.println("Третье задание");
+        Truck truck=new Truck(5,"VAS-13",'r',120,6,25);
+        System.out.println(truck.toString());
+        truck.newWheels(4);
+        System.out.println(truck.toString());
+
+        System.out.println();
+        System.out.println("Четвертое задание");
+        Heir1 heir1=new Heir1();
+        heir1.setNumber();
+        heir1.enterNumber();
+
+        System.out.println();
+        System.out.println("Пятое задание");
+        Heir2 heir2=new Heir2();
+        heir2.get();
+        System.out.println(heir2.toString());
     }
 }
