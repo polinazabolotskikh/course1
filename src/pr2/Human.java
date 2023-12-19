@@ -1,3 +1,4 @@
+/*
 package pr2;
 
 public class Human {
@@ -59,3 +60,4 @@ public class Human {
                 '}';
     }
 }
+*/
