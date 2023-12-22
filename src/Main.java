@@ -2,6 +2,7 @@ import pr4.Part1;
 import pr4.Part2;
 import pr5.Ex5;
 import pr6.*;
+import pr7.Plane;
 
 import static java.awt.Color.black;
 
@@ -72,7 +73,7 @@ public class Main {
         Ex5 ex5=new Ex5();
         ex5.enter();*/
 
-        System.out.println("Шестая практика");
+        /*System.out.println("Шестая практика");
 
         System.out.println();
         System.out.println("Первое и второе задание");
@@ -100,6 +101,11 @@ public class Main {
         System.out.println("Пятое задание");
         Heir2 heir2=new Heir2();
         heir2.get();
-        System.out.println(heir2.toString());
+        System.out.println(heir2.toString());*/
+
+        System.out.println("Седьмая практика");
+        System.out.println();
+        Plane plane=new Plane();
+        plane.enter();
     }
 }
