@@ -1,8 +1,15 @@
+import pr10.Files;
 import pr4.Part1;
 import pr4.Part2;
 import pr5.Ex5;
 import pr6.*;
 import pr7.Plane;
+import pr9.Collections;
+import pr9.User;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 
 import static java.awt.Color.black;
 
@@ -103,9 +110,39 @@ public class Main {
         heir2.get();
         System.out.println(heir2.toString());*/
 
-        System.out.println("Седьмая практика");
+        /*System.out.println("Седьмая практика");
         System.out.println();
         Plane plane=new Plane();
-        plane.enter();
+        plane.enter();*/
+
+        /*System.out.println("Девятая практика");
+        System.out.println();
+        Collections collections=new Collections();
+        collections.enter();
+        System.out.println();
+        System.out.println("Третье задание");
+
+        User user1=new User("Jack");
+        User user2=new User("Jhon");
+        User user3=new User("Leo");
+        System.out.println("Введите слово: ");
+        Scanner scanner=new Scanner(System.in);
+        Map<User,Integer> map=new HashMap<>();
+        map.put(user1,100);
+        map.put(user2,200);
+        map.put(user3,300);
+        String n=scanner.nextLine();
+        User u=new User(n);
+        if(map.containsKey(u)){
+            System.out.println("Количество очков: "+map.get(u));
+        }
+        else{
+            System.out.println("Not found");
+        }
+*/
+        System.out.println("Десятая практика");
+        System.out.println();
+        Files files =new Files();
+        files.find();
     }
 }
