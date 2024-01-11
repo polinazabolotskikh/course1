@@ -79,7 +79,7 @@ public class Main {
         /*System.out.println("Пятая практика");
         Ex5 ex5=new Ex5();
         ex5.enter();*/
-
+   
         /*System.out.println("Шестая практика");
 
         System.out.println();
