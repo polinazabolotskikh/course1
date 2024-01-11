@@ -115,7 +115,7 @@ public class Main {
         Plane plane=new Plane();
         plane.enter();*/
 
-        System.out.println("Девятая практика");
+        /*System.out.println("Девятая практика");
         System.out.println();
         Collections collections=new Collections();
         collections.enter();
@@ -130,7 +130,7 @@ public class Main {
         User u=new User(n);
         User user=new User("");
         user.getMap(u);
-
+*/
         /*System.out.println("Десятая практика");
         System.out.println();
         Files files =new Files();
