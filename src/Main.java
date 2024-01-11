@@ -1,8 +1,15 @@
+import pr10.Files;
 import pr4.Part1;
 import pr4.Part2;
 import pr5.Ex5;
 import pr6.*;
 import pr7.Plane;
+import pr9.Collections;
+import pr9.User;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 
 import static java.awt.Color.black;
 
@@ -103,9 +110,31 @@ public class Main {
         heir2.get();
         System.out.println(heir2.toString());*/
 
-        System.out.println("Седьмая практика");
+        /*System.out.println("Седьмая практика");
         System.out.println();
         Plane plane=new Plane();
-        plane.enter();
+        plane.enter();*/
+
+        System.out.println("Девятая практика");
+        System.out.println();
+        Collections collections=new Collections();
+        collections.enter();
+        System.out.println();
+        System.out.println("Третье задание");
+
+
+        System.out.println("Введите слово: ");
+        Scanner scanner=new Scanner(System.in);
+
+        String n=scanner.nextLine();
+        User u=new User(n);
+        User user=new User("");
+        user.getMap(u);
+
+        /*System.out.println("Десятая практика");
+        System.out.println();
+        Files files =new Files();
+        files.find();*/
+
     }
 }
