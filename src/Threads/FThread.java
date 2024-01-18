@@ -10,15 +10,15 @@ public class FThread extends Thread{
         while (true) {
             synchronized (lock) {
                 try {
-        //for(;;){
-            System.out.println(""+Thread.currentThread().getName());
-            lock.notify();
-            lock.wait();//}
-        } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
+                    //for(;;){
+                    System.out.println(""+Thread.currentThread().getName());
+                    lock.notify();
+                    lock.wait();//}
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
             }
         }
     }
+}
 
