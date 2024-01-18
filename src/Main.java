@@ -145,20 +145,30 @@ public class Main {
         }
         System.out.println(myThread.getState());*/
 
-        /*System.out.println();
+        System.out.println();
         System.out.println("3 задание");
+        Object lock=new Object();
         Counter1 counter1=new Counter1();
         for (int i=0;i<100;i++){
-            CThread cThread=new CThread(counter1);
-            cThread.start();
-            cThread.join();
+            CThread cThread=new CThread(lock,counter1);
+            try{
+                cThread.start();
+                synchronized (lock){
+                    lock.wait();
+                }
+            }catch(Exception e){
+               e.printStackTrace();
+            }
+
+            //cThread.join();
         }
-        System.out.println(counter1.getCount());*/
-        System.out.println();
+        System.out.println(counter1.getCount());
+
+        /*System.out.println();
         System.out.println("4 задание");
         Object lock = new Object();
         new FThread(lock).start();
-        new FThread(lock).start();
+        new FThread(lock).start();*/
 
-    }
-}
+
+    }}
