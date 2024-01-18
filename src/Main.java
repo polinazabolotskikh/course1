@@ -1,6 +1,4 @@
-import Threads.CThread;
-import Threads.Counter1;
-import Threads.FThread;
+
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -125,40 +123,6 @@ public class Main {
         Files files =new Files();
         files.find();*/
 
-        System.out.println("Многопоточность");
-        System.out.println();
-        /*System.out.println("1 задание");
-        for (int i=0;i<10;i++){
-            new MyThread().start();
-        }*/
-
-        /*System.out.println();
-        System.out.println("2 задание");
-        MyThread myThread = new MyThread();
-        System.out.println(myThread.getState());
-        myThread.start();
-        System.out.println(myThread.getState());
-        try{
-            myThread.join();
-        }catch(InterruptedException e) {
-            e.printStackTrace();
-        }
-        System.out.println(myThread.getState());*/
-
-        /*System.out.println();
-        System.out.println("3 задание");
-        Counter1 counter1=new Counter1();
-        for (int i=0;i<100;i++){
-            CThread cThread=new CThread(counter1);
-            cThread.start();
-            cThread.join();
-        }
-        System.out.println(counter1.getCount());*/
-        System.out.println();
-        System.out.println("4 задание");
-        Object lock = new Object();
-        new FThread(lock).start();
-        new FThread(lock).start();
 
     }
 }
